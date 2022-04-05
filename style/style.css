@@ -265,3 +265,29 @@ nav {
 .divUmidade {
     background-color: #1EC9E0;
 }
+
+/* RECEITA */
+
+.ContentPainelReceita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #11263C;
+    height:30vh;
+}
+
+.painelReceitas{
+    width: 60%;
+    height: 100%;
+    background-color: red;
+}
+
+.contentBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 10%;
+}
+
