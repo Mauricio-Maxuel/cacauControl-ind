@@ -273,14 +273,13 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #11263C;
+    margin-top: -2%;
     height:30vh;
 }
 
 .painelReceitas{
     width: 60%;
     height: 100%;
-    background-color: red;
 }
 
 .contentBar{
@@ -289,5 +288,71 @@ nav {
     align-items: center;
     width: 60%;
     height: 10%;
+    margin-bottom: 2%;
 }
 
+.barReceita{
+    height: 20%;
+    width: 8%;
+    margin-right: -15%;
+    font-weight: 900;
+} 
+
+.barReceitaVerde{
+    background-color: #29E930;
+}
+
+.barReceitaVermelha{
+    background-color: red;
+}
+
+.textBar{
+    color: #939494;
+}
+
+
+.valorReceita{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.valorReceita h1{
+    color: #11263C;
+    font-weight: 900;
+    font: 1.4rem;
+    margin-left: -2%;
+    margin-right: -17%;
+}
+
+.moreIconINReceita{
+    width: 12%;
+    height: 4vh;
+}
+
+.barraReceita{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    border-radius: 20px;
+    background-color: #29E930;
+}
+
+.divBarraPerdas{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.infografico{
+    margin-top: 4%;
+    font-weight: 800;
+}
+
+.textInfo{
+    color: #11263C;
+}
