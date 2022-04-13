@@ -309,6 +309,7 @@ a{
     border-radius: 20px;
     display: flex;
     flex-direction: column; 
+    margin-bottom: 10%;
 }
 
 .divContentItemsYouLike{
@@ -380,4 +381,53 @@ a{
     border-radius: 8px;
     color: white;
 
+}
+
+.divTestemunhos{
+    width: 98.7vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divTestemunhosContent{
+    display:flex;
+    width: 90%;
+    background-color: red;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.titleSubtitle{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+}
+
+.titleSubtitle h1{
+    margin: 0;
+}
+
+.divAvaliacoes{
+    width: 38%;
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.divAvaliacoesIdentidade{
+    height: 30%;
+    width: 38%;
 }
