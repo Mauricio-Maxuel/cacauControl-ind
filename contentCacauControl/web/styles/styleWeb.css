@@ -13,9 +13,17 @@ a{
 .sectionInitial{
     width: 100%;
     height:100vh;
+    margin-bottom: 10%;
 }
 .divBlur{
-    position: absolute;width: 60vw;height: 90vh; left: 0;top:-10%;border-radius: 0 0 1000px ; background-color: #cb8c17;opacity:30%; z-index: 1;filter:blur(4px);
+    position: absolute;
+    width: 60vw;height: 90vh; 
+    left: 0;top:-10%;
+    border-radius: 0 0 1000px ; 
+    background-color: #cb8c17;
+    opacity:30%; 
+    z-index: 1;
+    filter:blur(4px);
     -o-filter:blur(15px);
     -ms-filter:blur(15px);
     -moz-filter:blur(15px);
@@ -159,7 +167,48 @@ a{
     filter: drop-shadow(1px 1px 7px #71634E);
 }
 
+/* divJustificativa */
+.divJustificativa{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divImgJustificativa{
+    width: 50%;
+    height: 100%;
+    border-right: 1px  #8B601F solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.divImgJustificativa img{
+    width: 70%;
+    border-radius: 50px;
+
+}
+.divContentJustificativa{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divContentJustificativa h1{
+    font-size: 2.8rem;
+    font-family: 'Manrope';
+}
+
+.divContentJustificativa p{
+    font-size: 1.4rem;
+    font-family: 'Manrope';
+    padding: 0 10% 0 15%;
+}
 /* divcards */
 
 .divCards{
@@ -169,6 +218,7 @@ a{
     align-items: center;
     justify-content: center;
     gap: 2%;
+    margin-bottom: 10%;
 }
 
 .card{
@@ -193,4 +243,141 @@ a{
     margin-bottom: 8%;
     width: 100%;
     height: 10%;
+}
+
+/* divImgContratar */
+
+.imgContratar{
+    width: 98.7vw;
+    height: 50vh;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.h2Contratar{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.h4Contratar{
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+.imgContratar button{
+    padding: 1% 2% 1% 2%;
+    background-color: #012540;
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    color: white;
+}
+
+/*  */
+.divInfo{
+    display: flex;
+    width:auto;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h4Info{
+    overflow-wrap:break-word;
+    width: 50%;
+    font-weight: 600;
+}
+/* divAchamosQueVaiGostar */
+
+.divYouLike{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentYouLike{
+    width: 85%;
+    height: 100%;
+    border: 1px gray solid;  
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.divContentItemsYouLike{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;  
+    margin-top: 2%;
+}
+.divContentItemsYouLike h2{
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+.itemYouLike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    width: 25%;
+}
+
+.itemYouLike span{
+    font-size: 1rem;
+    font-weight: 800;
+    
+}
+
+.itemYouLike i{
+    font-size: 1.8rem;
+}
+
+.divCalculators{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80%;
+    gap: 3%;
+
+}
+
+.divCalcItem{
+    width: 42%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#F8F9FD ;
+    border-radius: 30px;
+}
+.divCalcItem h1{
+    margin: 0;
+}
+.divCalcItem p{
+    font-weight: 500;
+    text-align: center;
+    margin-bottom:15%;
+}
+
+.divCalcItem button{
+    font-size: 1.2rem;
+    border-style: none;
+    padding: 3% 5%;
+    background-color: #9F8153;
+    border-radius: 8px;
+    color: white;
+
 }
