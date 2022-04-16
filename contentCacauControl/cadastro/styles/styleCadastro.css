@@ -1,0 +1,189 @@
+body{
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: 'Rajdhani', 'Manrope', sans-serif;
+    width: 100vw;
+    position: relative;
+    background-color: #F0F2F5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contentAll{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.contentAll a{
+    font-size: 2.5rem;
+    padding: 1% 0 0 1%;
+    color: black;
+}
+
+.divLeft{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divform{
+    width: 60%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Manrope', sans-serif;
+}
+.divform h1{
+    margin: 0;
+    font-weight: 500;
+}
+.divform h4{
+    margin-top: 0;
+    margin-bottom: 8%;
+    font-weight: 400;
+}
+.divform form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+}
+.divform form input{
+    width: 65%;
+    margin-bottom: 3%;
+    padding: 4%;
+    color: #5A5A5A;
+    font-size: 1rem;
+    outline: none;
+    border: 1px #D9D9D9 solid;
+    border-radius: 10px;
+}
+
+.divform form button{
+    width:72%;
+    padding: 3%;
+    color: white;
+    background-color: #4E473E;
+    font-size: 1rem;
+    border: 1px #D9D9D9 solid;
+    border-radius: 10px;
+}
+  
+.divRight{
+    width: 45%;
+    height: 100%;
+    background-color: #4E473E;
+    display: flex;
+    justify-content: center;
+    gap:7%;
+    flex-direction: column;
+    align-items:center;
+    border-radius:60px 0 0 60px ;
+}
+
+.divRightLogo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divRightLogo img{
+    width: 18%;
+
+}
+
+.divRightLogo h1{
+    margin: 0;
+    font-size: 2.1rem;
+    font-family:'Manrope', sans-serif;
+    color: #242220;
+    font-weight: 400;
+}
+
+.divRightLogo span{
+    margin: 0;
+    font-family:'Manrope', sans-serif;
+    color: white;
+}
+
+.divTextInfo{
+    background-color:#342f29 ;
+    width: 50%;
+    color: white; 
+    padding: 2%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.divsocialRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divTextSocialRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.divTextSocialRight h4{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.divTextSocialRight h5{
+    margin: 0;
+    margin-bottom: 15%;
+    margin-top: 5%;
+    color:#242220 ;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.divSocialItemsRight{
+    display: flex;
+    width: 40vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+.itemsSocial{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 5px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    transition: 500ms;
+}
+
+.itemsSocial:hover{
+    transform: translate(0px,-5%) ;
+    box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
+}
+.itemsSocial a,.itemsSocial i{
+    color: white;
+    font-size: 3rem;
+}
+
